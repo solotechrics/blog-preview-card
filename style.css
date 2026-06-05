@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.card {
+    background-color: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    width: min(384px, 90%);
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    gap: 1rem;
+    box-shadow: 8px 8px 0px 0px black;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card a:hover h1 {
+    color: var(--tag-color);
+    transition: 0.2s ease-in;
+}
+
+.card > img {
+    border-radius: 12px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.tag {
+    background-color: var(--tag-color);
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 800;
+    border-radius: 3px;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text-heading);
+}
+
+p {
+    font-size: 15px;
+}
+
+.card p:first-of-type {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card p:last-of-type {
+    color: var(--text-gray);
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.profile > span {
+    font-weight: 900;
+    color: var(--text-heading);
+    font-size: 14px;
+}
+
+.profile .avatar {
+    width: 40px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1rem;
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
