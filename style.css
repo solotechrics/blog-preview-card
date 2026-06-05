@@ -39,7 +39,9 @@ main {
     text-decoration: none;
 }
 
-.card a:hover h1 {
+.card a:hover h1,
+.card a:focus h1,
+.card a:focus-visible h1 {
     color: var(--tag-color);
     transition: 0.2s ease-in;
 }
