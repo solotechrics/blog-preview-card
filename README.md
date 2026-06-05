@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/solotechrics/blog-preview-card)
-- Live Site URL: *(coming soon — will update after deployment)*
+- Live Site URL: [Live link](https://solotechrics.github.io/blog-preview-card/)
 
 ---
 
